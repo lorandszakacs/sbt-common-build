@@ -42,6 +42,10 @@ private[core] trait CommonBuildCoreDependencies {
     final lazy val akkaActor = "com.typesafe.akka" %% "akka-actor" % "2.3.8" withSources()
     final lazy val akkaslf4j = "com.typesafe.akka" %% "akka-slf4j" % "2.3.8" withSources()
     final lazy val akkaContrib = "com.typesafe.akka" %% "akka-contrib" % "2.3.8" withSources()
+    final lazy val akkaStreamExperimental = "com.typesafe.akka" % "akka-stream-experimental_2.11" % "1.0-M4" withSources()
+    final lazy val akkaHttpExperimental = "com.typesafe.akka" %% "akka-http-experimental" % "1.0-M4" withSources()
+    final lazy val akkaHttpCoreExperimental = "com.typesafe.akka" %% "akka-http-core-experimental" % "1.0-M4" withSources()
+
     final lazy val akka = Seq(akkaActor, akkaslf4j, akkaContrib)
 
     final lazy val reactiveMongo = "org.reactivemongo" %% "reactivemongo" % "0.10.5.0.akka23" withSources()
