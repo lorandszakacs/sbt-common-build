@@ -1,15 +1,15 @@
-sbt Common Build Plugin
+sbt-common-build Plugin
 ================
 
 A straightforward way of creating sbt build definitions.
 
 ## Current version
 
-`0.1.0`
+`0.1.2`
 
 ## Using it
 
-Add `addSbtPlugin("com.lorandszakacs" % "sbt-common-build-plugin" % "0.1.1")` to the `project/plugins.sbt` file of your project.
+Add `addSbtPlugin("com.lorandszakacs" % "sbt-common-build-plugin" % "0.1.2")` to the `project/plugins.sbt` file of your project.
 
 ## Example
 
