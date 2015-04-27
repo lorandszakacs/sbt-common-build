@@ -20,7 +20,7 @@ import sbt._
 import Keys._
 
 /**
- * @author Lorand Szakacs, lorand.szakacs@busymachines.com
+ * @author Lorand Szakacs, lsz@lorandszakacs.com
  * @since 16 Mar 2015
  *
  *        Note that all members that have type Seq[sbt.ModuleID]
