@@ -34,10 +34,6 @@ private[core] trait CommonBuildCoreDependencies {
   object dev {
     final def scalaParserCombinators = "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4" withSources()
 
-    final def lorandszakacsUtilHtml = "com.lorandszakacs" %% "util-html" % "0.1.1" withSources()
-
-    final def lorandszakacsUtilIO = "com.lorandszakacs" %% "util-io" % "0.1.0" withSources()
-
     final def nScalaJodaTime = "com.github.nscala-time" %% "nscala-time" % "2.12.0"
 
     final def akkaActor = "com.typesafe.akka" %% "akka-agent" % "2.4.7"
@@ -116,8 +112,6 @@ private[core] trait CommonBuildCoreDependencies {
     final def scalaCheck = "org.scalacheck" %% "scalacheck" % "1.12.2" % "test" withSources()
 
     final def scalaMock = "org.scalamock" %% "scalamock-scalatest-support" % "3.2" % "test" withSources()
-
-    final def sprayTestKit = "io.spray" %% "spray-testkit" % "1.3.2" % "test" withSources()
 
     def resolvers: Seq[MavenRepository] = Seq()
   }
