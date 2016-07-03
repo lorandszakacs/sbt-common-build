@@ -38,7 +38,7 @@ private[commonbuild] trait CommonBuildCore extends Build with CommonBuildCoreDep
 
   def orgName: String = "Lorand Szakacs"
 
-  def scalacVersion: String = "2.11.6"
+  def scalacVersion: String = "2.12.0-M4"
 
   def projectVersion: String
 
