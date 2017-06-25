@@ -1,4 +1,4 @@
-//             Copyright 2015 Lorand Szakacs
+//             Copyright 2017 Lorand Szakacs
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
