@@ -62,6 +62,8 @@ private[core] trait CommonBuildCoreDependencies {
 
     def logbackClassic: ModuleID = "ch.qos.logback" % "logback-classic" % "1.1.7" withSources()
 
+    def pprint: ModuleID = "com.lihaoyi" %% "pprint" % "0.4.3" withSources()
+
     object java {
       def jsoup: ModuleID = "org.jsoup" % "jsoup" % "1.8.1" withSources()
     }
