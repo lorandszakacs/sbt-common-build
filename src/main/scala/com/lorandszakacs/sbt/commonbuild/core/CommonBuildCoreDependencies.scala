@@ -30,7 +30,7 @@ private[core] trait CommonBuildCoreDependencies {
   def scalacVersion: String = "2.12.2"
 
   private lazy val akkaVersion = "2.4.14"
-  private lazy val akkaHttpVersion = "10.0.8"
+  private lazy val akkaHttpVersion = "10.0.0"
   private lazy val catsVersion = "0.9.0"
   private lazy val shapelessVersion = "2.3.2"
 
