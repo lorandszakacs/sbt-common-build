@@ -53,7 +53,7 @@ private[core] trait CommonBuildCoreDependencies {
 
     def nScalaJodaTime: ModuleID = "com.github.nscala-time" %% "nscala-time" % "2.16.0" withSources()
 
-    def reactiveMongo: ModuleID = "org.reactivemongo" %% "reactivemongo" % "0.12.4" withSources()
+    def reactiveMongo: ModuleID = "org.reactivemongo" %% "reactivemongo" % "0.12.5" withSources()
 
     def typeSafeConfig: ModuleID = "com.typesafe" % "config" % "1.3.1" withSources()
 
