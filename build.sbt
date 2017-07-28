@@ -31,7 +31,7 @@ lazy val commonSettings: Seq[Def.Setting[_]] =
     Seq(
       scalaVersion := {
         (sbtVersion in Scope.GlobalScope).value match {
-          case sbt10 if sbt10.startsWith("1.") => "2.12.2"
+          case sbt10 if sbt10.startsWith("1.") => "2.12.3"
           case sbt013 if sbt013.startsWith("0.13.") => "2.10.4"
           case sbt012 if sbt012.startsWith("0.12.") => "2.9.3"
           case _ => "2.9.3"

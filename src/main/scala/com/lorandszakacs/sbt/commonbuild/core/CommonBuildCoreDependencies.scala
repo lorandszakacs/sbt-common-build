@@ -27,7 +27,7 @@ import sbt._
   *        of the same library between all CareConnect projects.
   */
 private[core] trait CommonBuildCoreDependencies {
-  def scalacVersion: String = "2.12.2"
+  def scalacVersion: String = "2.12.3"
 
   private lazy val akkaVersion = "2.4.14"
   private lazy val akkaHttpVersion = "10.0.0"
